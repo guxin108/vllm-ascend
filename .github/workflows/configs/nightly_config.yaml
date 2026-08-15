@@ -97,6 +97,12 @@ a3:
       - name: DeepSeek-V4-Pro-w4a8-prefix-cache-PD
         config_file_path: DeepSeek-V4-Pro-w4a8-prefix-cache-PD.yaml
         size: 4
+      - name: GLM-5.2-w8a8c8-128k-1k-90-50-PD
+        config_file_path: GLM-5.2-W8A8C8-128k-1k-90-50-PD.yaml
+        size: 4
+      - name: GLM-5.1-w8a8c8-128k-1k-90-50-PD
+        config_file_path: GLM-5.1-W8A8C8-128k-1k-90-50-PD.yaml
+        size: 4
       - name: Kimi-K2.6-W4A8-64k-1k-TPOT50-PD
         config_file_path: Kimi-K2.6-W4A8-64k-1k-TPOT50-PD.yaml
         size: 2
@@ -128,6 +134,15 @@ a3:
         size: 2
       - name: multi-node-GLM-5.1-W8A8C8-A3_128k_90_50
         config_file_path: GLM-5.1-W8A8C8-A3_128k_90_50.yaml
+        size: 2
+      - name: multi-node-GLM-5.1-W8A8C8-MTP-A3_198k_function
+        config_file_path: GLM-5.1-W8A8C8-A3_198k_function.yaml
+        size: 2
+      - name: multi-node-GLM-5.2-W8A8C8-MTP-A3_128k
+        config_file_path: GLM-5.2-W8A8C8-A3_128k_90_50.yaml
+        size: 2
+      - name: multi-node-GLM-5.2-W8A8C8-MTP-A3_198k_function
+        config_file_path: GLM-5.2-W8A8C8-A3_198k_function.yaml
         size: 2
   single_node:
     test_config:
